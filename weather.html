@@ -10,8 +10,33 @@
 </head>
 <body>
     
+    <div class="container my-5 mx-auto">
+        <h1 class="text-muted text-center my-4">WEATHER TODAY</h1>
 
-    <script src="scripts/weather.js"></script>
+
+        <form  class="text-muted change-location my-4 text-center">
+            <label for="city">Enter a location for weather information</label>
+            <input type="text" name="city"  class="form-control p-2">
+        </form>
+
+        <div class="card shadow-lg rounded">
+             <img src="https://via.placeholder.com/400x300" class="time card-img-top">
+             <div class="icon text-center bg-light mx-auto">
+                 <!--icon here-->
+             </div>
+             <div class="text-muted text-center text-uppercase details">
+                 <h5 class="my-3">City name</h5>
+                 <div class="my-3">Weather condition</div>
+                 <div class="display-4 my-4">
+                     <span>temp</span>
+                     <span>&deg;C</span>
+                 </div>
+             </div>
+        </div>
+    </div>
+
+
     <script src="scripts/forcast.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 </html>
