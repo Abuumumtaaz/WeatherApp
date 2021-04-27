@@ -1,0 +1,24 @@
+body{
+    background: #eeedec;
+    letter-spacing: 0.2em;
+    font-size: 0.8em;
+  }
+  .container{
+    max-width: 400px;
+  }
+  .icon{
+    position: relative;
+    top: -50px;
+    border-radius: 50%;
+    width: 100px;
+    margin-bottom: -50px;
+  }
+.form {
+      border-radius: 5px;
+  }
+
+.form:hover {
+    border-radius: 10px;
+    border-color: blueviolet;
+
+}
